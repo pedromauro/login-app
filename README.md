@@ -16,6 +16,7 @@ Para poder Realizar el despliegue de la aplicación es necesario tener instalado
 2.- Configuración de conexión a la BD
     a) Crear un archivo  ".env"  el cual contendra las variables de entorno en la ruta "/ruta/del/proyecto/login-app"
     b) Pegar el siguiente codigo :
+        
         APP_NAME=Laravel
         APP_ENV=local
         APP_KEY=base64:5m+OpvQYm8Q7j+IJSWZ8/untW7sBtpK+8ogWMIMaVBs=
