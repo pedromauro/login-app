@@ -13,7 +13,11 @@ Para poder Realizar el despliegue de la aplicación es necesario tener instalado
 ## Pasos para despliegue 
 1.- Iniciar los servicios de Apache y MySql
 
-## Configuración de conexión a la BD
+## Creación de la BD
+1.- Crear una base de datos con el nombre de:
+    "login"
+
+## Configuración de conexión a la BD en Laravel
     1.- Crear un archivo  ".env"  el cual contendra las variables de entorno en la ruta
         "/ruta/del/proyecto/login-app"
     2.- Pegar el siguiente codigo :
@@ -38,7 +42,7 @@ Para poder Realizar el despliegue de la aplicación es necesario tener instalado
 ## Migración de la Base de Datos:
     1.-ejecutar el siguiente comando en la terminal  con la ruta del proyecto   
     "/ruta/del/proyecto/login-app"  
-       
+
         php artisan migrate
 
 
