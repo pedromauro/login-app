@@ -13,9 +13,10 @@ Para poder Realizar el despliegue de la aplicación es necesario tener instalado
 ## Pasos para despliegue 
 1.- Iniciar los servicios de Apache y MySql
 
-2.- Configuración de conexión a la BD
-    2.1.- Crear un archivo  ".env"  el cual contendra las variables de entorno en la ruta "/ruta/del/proyecto/login-app"
-    2.2.- Pegar el siguiente codigo :
+## Configuración de conexión a la BD
+    1.- Crear un archivo  ".env"  el cual contendra las variables de entorno en la ruta
+        "/ruta/del/proyecto/login-app"
+    2.- Pegar el siguiente codigo :
         
         APP_NAME=Laravel
         APP_ENV=local
