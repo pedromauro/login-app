@@ -36,8 +36,9 @@ Para poder Realizar el despliegue de la aplicación es necesario tener instalado
         DB_PASSWORD=
 
 ## Migración de la Base de Datos:
- ejecutar el siguiente comando en la terminal  con la ruta del proyecto   
-"/ruta/del/proyecto/login-app"     
+    1.-ejecutar el siguiente comando en la terminal  con la ruta del proyecto   
+    "/ruta/del/proyecto/login-app"  
+       
         php artisan migrate
 
 
